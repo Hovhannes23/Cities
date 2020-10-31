@@ -38,7 +38,7 @@ public class Main {
 
                 String city = Cities.getCityByLastLetterOfCity(city1);
                 System.out.println(city);
-                lastLetter = city.charAt(city.length() - 1);
+                lastLetter = city.charAt(city.length() -1);
             }
         }
 
