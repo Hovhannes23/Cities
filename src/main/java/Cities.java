@@ -33,7 +33,8 @@ public class Cities {
      else
         i = city1.charAt(city1.length()-1);
 
-        List<String> citiesOnI = new ArrayList<>();
+        List<String> citiesOnI = new ArrayList<>();// здесь будем хранить список городов, начинающих на требуемую букву.
+                                                   // Чтобы потом рандомно из этого листа достать один город
 
         for(String c:cities){
             if (i==c.charAt(0))
